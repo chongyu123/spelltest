@@ -10,8 +10,11 @@ while true do
   if guess == word then
     puts ""
     puts "** Correct! **"
+    puts ""
   else
+    puts ""
     puts "Oops!  correct answer is #{word}"
+    puts ""
   end
 end
 
