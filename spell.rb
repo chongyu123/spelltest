@@ -2,6 +2,7 @@ words = %w[ cat dog fox tiger lion ]
 
 while true do
   puts "=== Listen ==="
+  sleep 1
   word = words[rand(words.count)]
   system "say '#{word}'"
   print "answer: "
